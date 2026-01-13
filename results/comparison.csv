@@ -1,0 +1,3 @@
+Model,BLEU-4,ROUGE-L
+Baseline (Concat),1e-09,0.0
+Cross-Modal Attention,8.064405685719162e-06,0.2786596119929453
