@@ -37,6 +37,7 @@ exceed practical repository size limits
 make cloning and submission unnecessarily heavy
 violate common ML project repository practices
 
+The project is designed to load it locally using a fixed folder structure.
 Therefore, only the source code, configuration files, and experimental results are provided in this repository.
 
 Construction steps:
