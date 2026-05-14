@@ -1,0 +1,51 @@
+{
+  "dataset": {
+    "total_images": 1370,
+    "total_stories": 274,
+    "train_images": 1095,
+    "val_images": 275,
+    "train_stories": 219,
+    "val_stories": 55,
+    "train_distribution": {
+      "1": 219,
+      "2": 219,
+      "3": 219,
+      "4": 219,
+      "5": 219
+    },
+    "val_distribution": {
+      "1": 55,
+      "2": 55,
+      "3": 55,
+      "4": 55,
+      "5": 55
+    }
+  },
+  "device": "cpu",
+  "histories": {
+    "baseline": {
+      "train_loss": [
+        1.6183430605283067
+      ],
+      "val_loss": [
+        1.610836852680553
+      ],
+      "train_accuracy": [
+        0.1908675799086758
+      ],
+      "val_accuracy": [
+        0.19636363636363635
+      ]
+    }
+  },
+  "results": [
+    {
+      "experiment": "baseline",
+      "modification": "reference CNN",
+      "train_loss": 1.6183,
+      "validation_loss": 1.6108,
+      "train_accuracy": 0.1909,
+      "validation_accuracy": 0.1964
+    }
+  ]
+}

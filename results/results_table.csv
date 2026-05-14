@@ -1,0 +1,2 @@
+experiment,modification,train_loss,validation_loss,train_accuracy,validation_accuracy
+baseline,reference CNN,1.6183,1.6108,0.1909,0.1964
