@@ -27,6 +27,17 @@ The dataset is built from the project-local folder:
 ```text
 Sotrytelling/
 ```
+⚠️ Dataset Availability Note
+
+The original Sotrytelling dataset folder (containing 1,370 images and XML annotations) is not included in this GitHub repository due to size constraints and GitHub file handling limitations for large multi-file datasets.
+
+Including the full dataset would:
+
+exceed practical repository size limits
+make cloning and submission unnecessarily heavy
+violate common ML project repository practices
+
+Therefore, only the source code, configuration files, and experimental results are provided in this repository.
 
 Construction steps:
 
