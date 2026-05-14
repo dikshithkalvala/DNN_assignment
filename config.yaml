@@ -1,0 +1,23 @@
+dataset:
+  root: "Sotrytelling"
+  story_length: 5
+  image_size: 64
+  cache_images: true
+  val_fraction: 0.2
+  seed: 42
+
+training:
+  epochs: 5
+  batch_size: 32
+  learning_rate: 0.001
+  num_workers: 0
+
+model:
+  num_classes: 5
+  filters: [16, 32, 64]
+  kernel_size: 3
+  dropout: 0.0
+  batch_norm: false
+
+output:
+  results_dir: "results"
