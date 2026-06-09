@@ -169,17 +169,6 @@ No. The larger-filter model and the four-layer model did not improve beyond the 
 
 The task is difficult because many five-frame stories are near-duplicate photographs from the same scene, where only small camera or object movements distinguish positions. A single image does not always contain clear time information. Without the surrounding frames, position prediction is much harder than ordinary object classification.
 
-## Viva Notes
-
-Key points to explain:
-
-- I used image modality because this dataset folder provides images and XML files, not text sentences.
-- Labels come from each image's position inside a five-frame story.
-- The split is story-level to prevent data leakage.
-- The model outputs five logits and uses `CrossEntropyLoss`.
-- Accuracy is `correct predictions / total predictions`.
-- Each experiment changes exactly one architecture setting.
-- Validation accuracy is the main comparison metric.
 
 ## Submission Checklist
 
